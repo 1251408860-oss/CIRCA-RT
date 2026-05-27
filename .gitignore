@@ -1,0 +1,56 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated local outputs
+results/*
+!results/.gitkeep
+results_*/
+traces/*
+!traces/.gitkeep
+logs/
+autodl_runs/
+artifact_recheck*/
+*.log
+wget-log*
+
+# Large datasets, third-party checkouts, and model/cache assets
+data/
+third_party/
+torch_cache/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+
+# Paper build products
+paper_draft/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

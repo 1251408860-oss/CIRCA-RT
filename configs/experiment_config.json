@@ -1,0 +1,24 @@
+{
+  "random_seed": 7,
+  "n_per_trace": 1200,
+  "n_seeds": 5,
+  "deadline_ms": 50.0,
+  "baseline_latency_ms": 30.0,
+  "circa_rt": {
+    "window_size": 32,
+    "feature_dim": 32,
+    "low_quantile": 0.95,
+    "high_quantile": 0.99,
+    "monitor_cost_ms": 0.08,
+    "heavy_audit_cost_ms": 4.0,
+    "bucket_capacity": 12.0,
+    "replenish_rate": 0.45
+  },
+  "baselines": {
+    "window_size": 32,
+    "monitor_cost_ms": 0.05,
+    "audit_cost_ms": 4.0,
+    "periodic_audit_interval": 20,
+    "random_audit_rate": 0.05
+  }
+}

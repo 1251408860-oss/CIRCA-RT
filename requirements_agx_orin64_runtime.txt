@@ -1,0 +1,12 @@
+# Non-NVIDIA Python dependencies for the AGX Orin 64GB run package.
+#
+# Do not install generic x86 PyTorch wheels on Jetson from this file.
+# Use the PyTorch/torchvision wheels or containers that match the target
+# JetPack/L4T version, then install this file for the project utilities.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pillow
+tqdm

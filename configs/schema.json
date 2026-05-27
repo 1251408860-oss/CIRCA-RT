@@ -1,0 +1,43 @@
+{
+  "required_columns": [
+    "run_id",
+    "platform",
+    "timestamp_ms",
+    "seq",
+    "mode",
+    "attack_type",
+    "label",
+    "semantic_residual",
+    "timing_residual_ms",
+    "context_cpu_util",
+    "context_gpu_util",
+    "context_net_delay_ms",
+    "context_jitter_ms",
+    "context_queue_depth",
+    "context_message_age_ms",
+    "baseline_latency_ms",
+    "e2e_latency_ms",
+    "deadline_ms",
+    "deadline_miss",
+    "method",
+    "alarm",
+    "audit",
+    "audit_cost_ms",
+    "monitor_cost_ms"
+  ],
+  "label_values": {
+    "benign": 0,
+    "attack": 1
+  },
+  "primary_metrics": [
+    "attack_recall",
+    "false_alarm_rate",
+    "detection_delay",
+    "audit_rate",
+    "mean_audit_cost_ms",
+    "p99_latency_ms",
+    "p999_latency_ms",
+    "deadline_miss_ratio",
+    "latency_inflation_mean_ms"
+  ]
+}
